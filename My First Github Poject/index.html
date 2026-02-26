@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#hero" class="nav-logo">Idisenimi Kalsuo</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-circle"></div>
+    <div class="hero-content">
+      <p class="hero-tag">Available for work · 2025</p>
+      <h1 class="hero-title">
+        Crafting digital<br/>
+        <em>experiences</em> that<br/>
+        matter.
+      </h1>
+      <p class="hero-desc">
+        I'm a frontend developer & designer who builds clean, thoughtful interfaces with a focus on performance and elegance.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+    <div class="scroll-hint">Scroll to explore</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="about-img-wrap reveal">
+        <div class="about-img-placeholder"><img src="Images/picture.jpeg" alt="Profile Image"></div>
+        <div class="about-frame"></div>
+      </div>
+      <div class="about-text reveal">
+        <p class="section-label">About Me</p>
+        <h2 class="section-title">Passionate about the intersection of design & code.</h2>
+        <p>I'm Alex, a self-taught developer based in Lagos, Nigeria. I love turning ideas into polished digital products — from concept to deployment.</p>
+        <p>With 3+ years of experience, I've worked on everything from landing pages to full-stack web applications. I care deeply about the small details that make a big difference.</p>
+        <div class="skills-list">
+          <span class="skill-item">HTML & CSS</span>
+          <span class="skill-item">JavaScript</span>
+          <span class="skill-item">React.js</span>
+          <span class="skill-item">Node.js</span>
+          <span class="skill-item">Figma / UI Design</span>
+          <span class="skill-item">Git & GitHub</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div style="text-align:center; margin-bottom: 3rem;">
+      <p class="section-label reveal">Selected Work</p>
+      <h2 class="section-title reveal">Projects I'm proud of.</h2>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-num">01</div>
+        <p class="project-tag">Web App</p>
+        <h3 class="project-title">Task Management App</h3>
+        <p class="project-desc">A beautiful and minimal productivity app built with React, featuring drag-and-drop and local storage persistence.</p>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-num">02</div>
+        <p class="project-tag">E-Commerce</p>
+        <h3 class="project-title">Fashion Store UI</h3>
+        <p class="project-desc">A sleek storefront UI with animated product cards, filter system, and smooth cart experience.</p>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-num">03</div>
+        <p class="project-tag">Landing Page</p>
+        <h3 class="project-title">SaaS Product Page</h3>
+        <p class="project-desc">A high-converting landing page with scroll animations, testimonials, and a pricing section.</p>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <p class="section-label reveal">Let's Talk</p>
+    <h2 class="section-title reveal">Have a project in mind?</h2>
+    <p class="contact-tagline reveal">I'm always open to discussing new opportunities, creative ideas, or just a friendly hello.</p>
+    <a href="mailto:hello@alexdoe.com" class="contact-email reveal">hello@alexdoe.com</a>
+    <ul class="social-links reveal">
+      <li><a href="#">GitHub</a></li>
+      <li><a href="#">LinkedIn</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Dribbble</a></li>
+    </ul>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>© 2025 Alex Doe</span>
+    <span>Designed & Built with ♥</span>
+  </footer>
+
+</body>
+ <script src="script.js"></script>
+</html>
